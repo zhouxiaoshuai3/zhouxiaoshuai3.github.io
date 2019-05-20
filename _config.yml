@@ -16,7 +16,7 @@ comment:
 
 # Social
 social:
-    weibo: 5366874726 
+#    weibo: 5366874726
     github: zhouxiaoshuai3
     # zhihu: panpanleopard
     # juejin: xxx
@@ -28,7 +28,7 @@ social:
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
-    id: xxxx  
+    id: cdb0cd96b15568fb766da01eba79a2ec
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
