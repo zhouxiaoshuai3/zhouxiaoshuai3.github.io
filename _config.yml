@@ -1,12 +1,12 @@
 # Basic
-title: 周小帅
+title: 潘柏信
 subtitle: 个人站
 description: 欢迎来到我的个人站~
 # 头像里面的标题
 avatarTitle: Monkey
 # 头像里面的描述
-avatarDesc: PHP / Go
-url: "https://www.shanyutiwen.com"
+avatarDesc: PHP / GO
+url: "http://www.shanyutiwen.com"
 
 # Comment
 comment:
@@ -16,7 +16,7 @@ comment:
 
 # Social
 social:
-#    weibo: 5366874726
+    weibo: 5366874726 
     github: zhouxiaoshuai3
     # zhihu: panpanleopard
     # juejin: xxx
