@@ -114,7 +114,6 @@ tag: Nginx 负载均衡
         * ARP 协议 根据 MAC 地址 找到 realServer 会把这个数据包发送给真正的 realServer;
         * realServer 收到这个数据包，首先判断目标 IP 是不是自己，如果不是则把包丢弃。如果是自己的话就处理；[要在所有的 realServer 中绑定 VIP]
         * realServer 处理这个包后，会把目标 IP 修改成 client IP ，不再经过 DR，直接发送给客户端，这样效率会很高
-
         ![-w718](https://upload-images.jianshu.io/upload_images/7303277-4a44b3b37450da21.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
  
 
