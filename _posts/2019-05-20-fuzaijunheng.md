@@ -3,7 +3,7 @@ layout: post
 title: "负载均衡"
 date: 2019-05-20 
 description: "常用的负载均衡"
-tag: 负载均衡原理
+tag: Nginx 负载均衡
 ---   
 
 
