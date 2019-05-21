@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "常用的负载均衡实现"
-date: 2019-05-21 09：45:00 
+date: 2019-05-21 09:45:00 
 description: "常用的负载均衡实现"
 tag: Nginx 负载均衡
 --- 
