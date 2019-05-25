@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GO语言中数组和切片"
-date: 2019-05-26
+date: 2019-05-25
 description: "GO语言中数组和切片"
 tag: GO 从入门到实战
 --- 
@@ -70,7 +70,7 @@ func TestMultiArrayTravel(t *testing.T)  {
 	// 多维数组的声明
 	// 数组中有 3 个 数组元素，每个数组元素中有 2 个元素
 	// 第一个[]是 包含的数组个数，第二个是 每个数组中元素的个数
-	arr4 := [3][2]int{{1, 2}, {3, 4}, {5, 6}}
+	arr4 := [3][2]int{ {1, 2}, {3, 4}, {5, 6} }
 	for _, v := range arr4 {
 		//t.Log(i, v)
 		/**
