@@ -90,14 +90,14 @@ tag: Nginx 负载均衡
     * 访问请求先经过 VIP 然后达到负载均衡调度器上；
     * 由 DR 到 realServer [真实服务器] 列表中选取一个服务器节点响应用户的请求；
 
-    ![流程如](https://upload-images.jianshu.io/upload_images/7303277-2121ead3a0ab29b2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+    ![流程如](https://raw.githubusercontent.com/xiaoshuaizhou/pic/master/ip%E6%A8%A1%E5%BC%8F.png)  
 * NAT 地址转发模式：
     * 地址转发技术
     * DR 需要将 VIP 配置到 DR上；
     * 将收到的集群服务，请求报文目标地址转换成根据算法得到的后端服务器主机的地址；
     * 然后后端服务器将响应报文发送给 DR；
     * 再由 DR 将源地址改成 VIP 地址；
-    ![-w619](https://upload-images.jianshu.io/upload_images/7303277-3039abf8d598be14.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![-w619](https://raw.githubusercontent.com/xiaoshuaizhou/pic/master/net%E6%A8%A1%E5%BC%8F.png)
     
     * NAT 模式的特点：
         * LVS 上需要两块网卡，DIP 和 realServer 相同，VIP 由外网访问；
@@ -114,6 +114,6 @@ tag: Nginx 负载均衡
         * ARP 协议 根据 MAC 地址 找到 realServer 会把这个数据包发送给真正的 realServer;
         * realServer 收到这个数据包，首先判断目标 IP 是不是自己，如果不是则把包丢弃。如果是自己的话就处理；[要在所有的 realServer 中绑定 VIP]
         * realServer 处理这个包后，会把目标 IP 修改成 client IP ，不再经过 DR，直接发送给客户端，这样效率会很高
-        ![-w718](https://upload-images.jianshu.io/upload_images/7303277-4a44b3b37450da21.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+        ![-w718](https://raw.githubusercontent.com/xiaoshuaizhou/pic/master/dr%E6%A8%A1%E5%BC%8F.png)
  
 
