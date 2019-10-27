@@ -64,10 +64,13 @@ tag: 工具
 <li style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px; margin-bottom: 0.5em;"><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">命令行检验 sdebug 是否安装成功</span></li></ul>
 <p style="font-size: inherit; color: inherit; line-height: inherit; padding: 0px; margin: 1.7em 0px;"><code style="font-size: inherit; line-height: inherit; overflow-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0px 2px; color: rgb(248, 35, 117); background: rgb(248, 248, 248);">
 $ php -v 
-    PHP 7.2.0RC6 (cli) (built: Nov 23 2017 10:30:56) ( NTS DEBUG )
-Copyright (c) 1997-2017 The PHP Group
-Zend Engine v3.2.0-dev, Copyright (c) 1998-2017 Zend Technologies
-        with Sdebug v2.x.x-dev, Copyright (c) 2002-2017, by Derick Rethans
+<br>
+    PHP 7.3.3 (cli) (built: Mar  8 2019 16:40:07) ( NTS )
+    Copyright (c) 1997-2018 The PHP Group
+    Zend Engine v3.3.3, Copyright (c) 1998-2018 Zend Technologies
+        with Zend OPcache v7.3.3, Copyright (c) 1999-2018, by Zend Technologies
+        with Sdebug v2.7.3-dev, Copyright (c) 2002-2019, by Derick Rethans
+
 </code></p>
 <ul style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px; padding-left: 32px; list-style-type: disc;">
 <li style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px; margin-bottom: 0.5em;"><span style="font-size: inherit; color: inherit; line-height: inherit; margin: 0px; padding: 0px;">至此 sdebug 就安装成功了  </span></li></ul></li>
